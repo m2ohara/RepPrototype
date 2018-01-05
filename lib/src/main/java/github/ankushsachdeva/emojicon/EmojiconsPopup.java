@@ -29,18 +29,13 @@ import java.util.List;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.Color;
 import android.graphics.Rect;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.DisplayMetrics;
-import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
@@ -50,12 +45,14 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
-import android.webkit.WebView;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
-import com.app.reputation.DragEventListener;
+import com.app.reputation.api.Expression;
+import com.app.reputation.api.ExpressionSender;
+import com.app.reputation.drag.DragEventListener;
+import com.app.reputation.api.ApiClient;
+import com.app.reputation.api.ExpressionBuilderCallback;
 
 
 /**
@@ -98,7 +95,7 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
 
 		this.setBackgroundDrawable(rootView.getResources().getDrawable(R.drawable.clear));
 
-		setDefaultTraits();
+		setTraits();
 	}
 
 	private void setOnDragListener() {
@@ -112,23 +109,6 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
 
 
 		contact.setOnDragListener(listener);
-
-//		View trait1 = getContentView().findViewById(R.id.trait_1);
-//
-//		trait1.setOnDragListener(listener);
-//
-//		View trait2 = getContentView().findViewById(R.id.trait_2);
-//
-//		trait2.setOnDragListener(listener);
-
-
-
-
-//		int marginBottom = (int)(getUsableScreenHeight() - (v.getHeight() +  mContext.getResources().getDimension(R.dimen.keyboard_height) / mContext.getResources().getDisplayMetrics().density));
-//
-//		LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-//		lp.setMargins(0, 0, 0, 120);
-//		v.setLayoutParams(lp);
 
 	}
 
@@ -472,27 +452,13 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
 		void onKeyboardClose();
 	}
 
-	private void setDefaultTraits() {
+	private void setTraits() {
 
-		LinearLayout traitLayout = (LinearLayout)getContentView().findViewById(R.id.trait_layout);
-		int scale = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 40, mContext.getResources().getDisplayMetrics());
-		int iconScale = (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 25, mContext.getResources().getDisplayMetrics());
+		ApiClient apiClient = new ApiClient();
+		ExpressionBuilderCallback response = new ExpressionBuilderCallback(mContext, getContentView());
+		apiClient.GetAll("UserId", response);
 
-		Bitmap bitmap = ((BitmapDrawable)mContext.getDrawable(R.drawable.emoji_1f61d)).getBitmap();
-		Drawable icon = new BitmapDrawable(mContext.getResources(), Bitmap.createScaledBitmap(bitmap, iconScale, iconScale, true));
-		ImageButton traitToAdd1 = new ImageButton(mContext);
-		traitToAdd1.setLayoutParams(new LinearLayout.LayoutParams(scale, scale));
-		traitToAdd1.setBackgroundResource(github.ankushsachdeva.emojicon.R.drawable.trait_bg);
-		traitToAdd1.setImageDrawable(icon);
-		traitLayout.addView(traitToAdd1);
-
-
-		Bitmap bitmap2 = ((BitmapDrawable)mContext.getDrawable(R.drawable.emoji_1f60e)).getBitmap();
-		Drawable icon2 = new BitmapDrawable(mContext.getResources(), Bitmap.createScaledBitmap(bitmap2, iconScale, iconScale, true));
-		ImageButton traitToAdd2 = new ImageButton(mContext);
-		traitToAdd2.setLayoutParams(new LinearLayout.LayoutParams(scale, scale));
-		traitToAdd2.setBackgroundResource(github.ankushsachdeva.emojicon.R.drawable.trait_bg);
-		traitToAdd2.setImageDrawable(icon2);
-		traitLayout.addView(traitToAdd2);
 	}
+
+
 }

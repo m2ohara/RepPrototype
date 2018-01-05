@@ -8,20 +8,20 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable/ic_emoji_people_light.xml"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_2757.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_2757.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_orca_emoji_category_objects.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/orca_emoji_category_objects.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f440.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f440.png"
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_2757.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_2757.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f317.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f317.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f440.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f440.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4bc.png.flat",
@@ -68,16 +68,20 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_25fc.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/86f22d749e8b67c588fcb8e8b8bb63b8/res/layout/notification_template_big_media_custom.xml"
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4c5.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4c5.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_0032.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_0032.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4c5.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4c5.png"
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/86f22d749e8b67c588fcb8e8b8bb63b8/res/layout/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_trait_bg.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/trait_bg.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f6c5.png.flat",
@@ -88,12 +92,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f369.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4cb.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4cb.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f508.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f508.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4cb.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4cb.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f308.png.flat",
@@ -120,12 +124,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/orca_emoji_more_front_pressed.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f478.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f478.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f617.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f617.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f478.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f478.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_00ae.png.flat",
@@ -148,12 +152,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/orca_attachments_arrow.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f517.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f517.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_26aa.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_26aa.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f517.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f517.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/layout_notification_template_lines_media.xml.flat",
@@ -248,12 +252,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_emoji_nature_light_normal.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f6ad.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f6ad.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4f2.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4f2.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f6ad.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f6ad.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f431.png.flat",
@@ -288,12 +292,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f392.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_emoji_symbols_light_normal.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_emoji_symbols_light_normal.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f531.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f531.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_ic_emoji_symbols_light_normal.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/ic_emoji_symbols_light_normal.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4d0.png.flat",
@@ -388,12 +392,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4c9.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_emoji_nature_light_activated.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_emoji_nature_light_activated.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f63b.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f63b.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_emoji_nature_light_activated.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_emoji_nature_light_activated.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4b6.png.flat",
@@ -404,12 +408,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_2b05.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f365.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f365.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f504.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f504.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f365.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f365.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f49c.png.flat",
@@ -452,20 +456,20 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f456.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4cf.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4cf.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f0cf.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f0cf.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f622.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f622.png"
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f4cf.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4cf.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f483.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f483.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f622.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f622.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f608.png.flat",
@@ -616,12 +620,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f1e9_1f1ea.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f171.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f171.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_orca_composer_top_divider.9.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-mdpi-v4/orca_composer_top_divider.9.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f171.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f171.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_orca_attach_location_pressed.png.flat",
@@ -716,12 +720,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f4dd.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_0036.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_0036.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f3c1.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f3c1.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_0036.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_0036.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_ic_emoji_recent_light_normal.png.flat",
@@ -784,12 +788,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f6a4.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_2797.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_2797.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f557.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f557.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_2797.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_2797.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_203c.png.flat",
@@ -900,12 +904,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_emoji_symbols_light_normal.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/cf221bc471755729520078f82b0b2727/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f68c.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f68c.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/cf221bc471755729520078f82b0b2727/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f687.png.flat",
@@ -928,12 +932,12 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f604.png"
     },
     {
-        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f452.png.flat",
-        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f452.png"
-    },
-    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f3c2.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f3c2.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f452.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f452.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f453.png.flat",
@@ -2056,6 +2060,10 @@
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/orca_composer_popup_pressed.png"
     },
     {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_clear.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/clear.png"
+    },
+    {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f624.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f624.png"
     },
@@ -2182,6 +2190,10 @@
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f333.png.flat",
         "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-nodpi-v4/emoji_1f333.png"
+    },
+    {
+        "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_contact_border.png.flat",
+        "source": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/lib/build/intermediates/bundles/debug/res/drawable-hdpi-v4/contact_border.png"
     },
     {
         "merged": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/res/merged/androidTest/debug/drawable-nodpi-v4_emoji_1f233.png.flat",

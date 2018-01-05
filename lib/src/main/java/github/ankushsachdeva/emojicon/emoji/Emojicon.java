@@ -26,6 +26,7 @@ import java.io.Serializable;
 public class Emojicon implements Serializable {
     private static final long serialVersionUID = 1L;
     private String emoji;
+    private String resourceCodePoint;
 
     private Emojicon() {
     }
@@ -33,6 +34,8 @@ public class Emojicon implements Serializable {
     public static Emojicon fromCodePoint(int codePoint) {
         Emojicon emoji = new Emojicon();
         emoji.emoji = newString(codePoint);
+        emoji.resourceCodePoint = Integer.toHexString(codePoint).replace("0x", "emoji_");
+        emoji.resourceCodePoint = "emoji_" + emoji.resourceCodePoint;
         return emoji;
     }
 
@@ -55,6 +58,8 @@ public class Emojicon implements Serializable {
     public String getEmoji() {
         return emoji;
     }
+
+    public String getResourceCodePoint() { return resourceCodePoint; }
 
     @Override
     public boolean equals(Object o) {

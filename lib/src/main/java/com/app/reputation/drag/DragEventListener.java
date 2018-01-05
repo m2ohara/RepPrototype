@@ -1,4 +1,4 @@
-package com.app.reputation; /**
+package com.app.reputation.drag; /**
  * Created by michael on 17/11/17.
  */
 
@@ -21,6 +21,10 @@ import android.widget.LinearLayout;
 import android.widget.LinearLayout.LayoutParams;
 import android.widget.TextView;
 
+import com.app.reputation.api.ApiClient;
+import com.app.reputation.api.Expression;
+import com.app.reputation.api.ExpressionSender;
+
 import github.ankushsachdeva.emojicon.R;
 
 /**
@@ -33,12 +37,14 @@ public class DragEventListener implements View.OnDragListener {
     View contact = null;
     Context context = null;
     LinearLayout traitLayout = null;
+    ApiClient apiClient = null;
 
     public DragEventListener(View contactBorder, View contact, Context context, LinearLayout traitLayout) {
         this.contactBorder = contactBorder;
         this.contact = contact;
         this.context = context;
         this.traitLayout = traitLayout;
+        this.apiClient = new ApiClient();
     }
 
     // This is the method that the system calls when it dispatches a drag event to the
@@ -111,6 +117,10 @@ public class DragEventListener implements View.OnDragListener {
 
                 traitLayout.addView(traitToAdd);
 
+                String resourceName =  event.getClipData().getItemAt(0).getText().toString();
+
+                sendTraitToApi(resourceName);
+
                 // Invalidates the view to force a redraw
                 v.invalidate();
 
@@ -143,6 +153,19 @@ public class DragEventListener implements View.OnDragListener {
         }
 
         return false;
+    }
+
+    private void sendTraitToApi(String resourceName) {
+
+        Expression expression = new Expression();
+        expression.setUserId(1);
+        expression.setAmount(1);
+        expression.setType(resourceName);
+
+        ApiClient apiClient = new ApiClient();
+        ExpressionSender sender = new ExpressionSender();
+        apiClient.Create(expression, sender);
+
     }
 
 };

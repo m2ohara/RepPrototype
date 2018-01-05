@@ -1,4 +1,4 @@
-#Mon Nov 27 19:31:20 GMT 2017
+#Fri Jan 05 16:24:18 GMT 2018
 base.0=/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/transforms/dexMerger/debug/21
 renamed.0=classes.dex
 file.0=/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/transforms/dexMerger/debug/21/classes.dex

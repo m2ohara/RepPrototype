@@ -74,8 +74,10 @@ public class OpinionsKeyboard extends Activity {
             @Override
             public void onEmojiconClicked(Emojicon emojicon, View v) {
 
+                String resourceName =  emojicon.getResourceCodePoint();
+
                 // Create a new ClipData.Item from the ImageView object's tag
-                ClipData.Item item = new ClipData.Item("");
+                ClipData.Item item = new ClipData.Item(resourceName);
 
                 ClipData dragData = new ClipData(emojicon.getEmoji(), new String[] {ClipDescription.MIMETYPE_TEXT_PLAIN}, item);
 
