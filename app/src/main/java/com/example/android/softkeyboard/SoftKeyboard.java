@@ -138,7 +138,7 @@ public class SoftKeyboard extends InputMethodService
     @Override public View onCreateCandidatesView() {
         mCandidateView = new CandidateView(this);
         mCandidateView.setService(this);
-        return mCandidateView;
+        return null; // mCandidateView;
     }
 
     /**
