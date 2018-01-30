@@ -59,12 +59,6 @@ class EmojiAdapter extends ArrayAdapter<Emojicon> {
         Emojicon emoji = getItem(position);
         ViewHolder holder = (ViewHolder) v.getTag();
         holder.icon.setText(emoji.getEmoji());
-//        holder.icon.setOnClickListener(new OnClickListener() {
-//			@Override
-//			public void onClick(View v) {
-//				emojiClickListener.onEmojiconClicked(getItem(position), v);
-//			}
-//		});
 
         holder.icon.setOnLongClickListener(new View.OnLongClickListener() {
             @Override

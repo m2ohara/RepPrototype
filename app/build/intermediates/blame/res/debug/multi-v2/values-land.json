@@ -13,11 +13,40 @@
                         "endOffsets": "730"
                     },
                     "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endColumns": "42",
+                        "endOffsets": "366"
+                    }
+                },
+                {
+                    "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/b56d1e0d89c8be7e5466edb282181d6d/res/values-land/values-land.xml",
+                    "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "371",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "548"
+                    }
+                },
+                {
+                    "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7d347406db450ee1bde3a6e8af92669d/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

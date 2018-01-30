@@ -38,12 +38,24 @@
         <activity
             android:name="com.app.reputation.OpinionsKeyboard"
             android:theme="@android:style/Theme.Translucent"
-            android:windowSoftInputMode="stateHidden" >
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.app.reputation.user.UserActivity"
+            android:label="@string/title_activity_user"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <meta-data
             android:name="android.support.VERSION"
-            android:value="26.0.2" />
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

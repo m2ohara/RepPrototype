@@ -4,7 +4,7 @@
             "outputFile": "/home/michael/AndroidStudioProjects/Samples/GSoftKeyboard/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/cf221bc471755729520078f82b0b2727/res/values-port/values-port.xml",
+                    "source": "/home/michael/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7d347406db450ee1bde3a6e8af92669d/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

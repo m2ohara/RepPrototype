@@ -23,6 +23,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 
+import com.app.reputation.api.Contact.ContactRepo;
 import com.example.android.softkeyboard.R;
 
 import github.ankushsachdeva.emojicon.EmojiconEditText;
@@ -41,6 +42,8 @@ public class OpinionsKeyboard extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        ContactRepo.Get().writeSampleImagesToFile(this); //TODO Remove: For prototype
 
         //Remove title bar
         requestWindowFeature(Window.FEATURE_NO_TITLE);

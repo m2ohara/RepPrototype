@@ -45,14 +45,11 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
-import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
-import com.app.reputation.api.Expression;
-import com.app.reputation.api.ExpressionSender;
 import com.app.reputation.drag.DragEventListener;
 import com.app.reputation.api.ApiClient;
-import com.app.reputation.api.ExpressionBuilderCallback;
+import com.app.reputation.api.UserExpression.TraitBuilderCallback;
 
 
 /**
@@ -90,26 +87,11 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
 		//default size 
 		setSize(LayoutParams.MATCH_PARENT, (int)(mContext.getResources().getDimension(R.dimen.keyboard_height)) );
 
-
 		setOnDragListener();
 
 		this.setBackgroundDrawable(rootView.getResources().getDrawable(R.drawable.clear));
 
-		setTraits();
-	}
-
-	private void setOnDragListener() {
-
-		View contactBorder = getContentView().findViewById(R.id.contact_border);
-		View contact = getContentView().findViewById(R.id.contact_img);
-
-		LinearLayout traitLayout = (LinearLayout)getContentView().findViewById(R.id.trait_layout);
-
-		DragEventListener listener = new DragEventListener(contactBorder, contact, mContext, traitLayout);
-
-
-		contact.setOnDragListener(listener);
-
+		setTraits(mContext);
 	}
 
 	/**
@@ -452,11 +434,23 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
 		void onKeyboardClose();
 	}
 
-	private void setTraits() {
+	private void setOnDragListener() {
 
-		ApiClient apiClient = new ApiClient();
-		ExpressionBuilderCallback response = new ExpressionBuilderCallback(mContext, getContentView());
+		View contact = getContentView().findViewById(R.id.contact_img);
+
+		DragEventListener listener = new DragEventListener(getContentView(), mContext);
+
+		contact.setOnDragListener(listener);
+
+	}
+
+	private void setTraits(Context mContext) {
+
+		ApiClient apiClient = new ApiClient(mContext);
+		TraitBuilderCallback response = new TraitBuilderCallback(mContext, getContentView());
 		apiClient.GetAll("UserId", response);
+
+
 
 	}
 
